@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.github.grimpy.usbhidg.MainActivity">
+    <item
+        android:id="@+id/action_keyboard"
+        android:orderInCategory="100"
+        android:title="@string/action_keyboard"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_echo"
+        android:orderInCategory="100"
+        android:title="@string/action_echo"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
